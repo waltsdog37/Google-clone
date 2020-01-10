@@ -5,6 +5,14 @@ a {
     padding: 10px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-bar {
+    height: 20px;
+}
+
 .nav-left {
     float: left;
 }
@@ -31,8 +39,35 @@ img {
     margin-right: auto;
     width: 500px;
     border-radius: 25px;
+    border-style: 1px solid rgb(255, 255, 255);
 }
 
 #search-bar:hover {
-    box-shadow: 2px 2px 2px 2px rgba(68,68,68,0.6)
+    box-shadow: 1px 1px 1px 1px rgba(143, 143, 143, 0.6)
+
+}
+
+
+#small-button-container {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    margin: 3px;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(214, 214, 214);
+    margin: 2px;
+    
 }
