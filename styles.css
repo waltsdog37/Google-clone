@@ -11,6 +11,7 @@ a:hover {
 
 #nav-bar {
     height: 20px;
+    margin-top: 10px;
 }
 
 .nav-left {
@@ -21,22 +22,33 @@ a:hover {
     float: right;
 }
 
+#app-icon {
+    width: 25px;
+    margin: 0px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 130px;
 }
+/*  Not working
 
 #search-container {
+    display: inline-flex;
     padding: 20px;
+    border: red solid 2px;
     }
+
+#search-container img {
+    width:25px;
+    height: 20px;
+    padding: 0.5em;
+}
 
 #search-bar {
     padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 500px;
     border-radius: 25px;
     border-style: 1px solid rgb(255, 255, 255);
@@ -44,10 +56,17 @@ img {
 
 #search-bar:hover {
     box-shadow: 1px 1px 1px 1px rgba(143, 143, 143, 0.6)
-
 }
 
-
+#search-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border: blue solid 2px;
+    margin: 0px;
+    
+}
+*/
 #small-button-container {
     width: max-content;
     margin-left: auto;
