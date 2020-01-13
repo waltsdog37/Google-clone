@@ -77,6 +77,16 @@ a:hover {
     width: max-content;
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
+    border-radius: 25px;
+    border-style: 1px solid rgb(255, 255, 255);
+}
+
+
+#small-button-container {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
@@ -119,9 +129,6 @@ footer {
     background-color: rgb(236, 235, 235);   
     padding: 0 15px;
     border-bottom: solid rgb(196, 194, 194) 1px;
-    color: grey;
+    color: #4e4d4d;
 }
 
-a.nav-right {
-    padding-right: 40px;
-}
